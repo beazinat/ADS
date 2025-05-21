@@ -8,26 +8,26 @@ Os módulos deste repositório são baseados em materiais de grandes universidad
 
 ---
 
-## Lógica de Programação e Algoritmos
+### Lógica de Programação e Algoritmos
 
 **Referências principais deste módulo:**
 - Livro: [Algoritmos e Estruturas de Dados 1 - UFPR (PDF)](REFERÊNCIAS/ALGORITMOS%20E%20ESTRUTURAS%20DE%20DADOS%201%20-%20UFPR.pdf)
 - Playlist: [USP - Lógica de Programação e Algoritmos (Prof. Luciano Digiampieri)](https://www.youtube.com/playlist?list=PL_JAaU8k6DQWsh1mt8vwpP8YsH6Xhgq2N)
 
-### Exercícios UFPR
+#### Exercícios UFPR
 
 - **3.3 Exercícios**
   - [Exercício 1: Contar Pessoas na Sala](LÓGICA%20DE%20PROGRAMAÇÃO%20E%20ALGORITMOS/exercicios_UFPR/3_3_exercicios/exercicio1/contar_pessoas.md)
   - [Exercício 2: Trocar o pneu de um carro](LÓGICA%20DE%20PROGRAMAÇÃO%20E%20ALGORITMOS/exercicios_UFPR/3_3_exercicios/exercicio2/trocar_pneu_carro.md)
   - [Exercício 3: Trocar o pneu de uma bicicleta](LÓGICA%20DE%20PROGRAMAÇÃO%20E%20ALGORITMOS/exercicios_UFPR/3_3_exercicios/exercicio3/trocar_pneu_bicicleta.md)
 
-### Exercícios USP
+#### Exercícios USP
 
 - 
 
 ---
 
-## Outros Módulos
+### Outros Módulos
 
 Cada novo módulo terá suas referências específicas indicadas no início da seção correspondente.
 
