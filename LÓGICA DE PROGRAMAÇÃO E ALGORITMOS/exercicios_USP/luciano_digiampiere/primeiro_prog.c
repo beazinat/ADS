@@ -3,19 +3,27 @@ Programa para calcular a área de uma cabana e seus três cômodos: uma sala de 
 */
 
 #include <stdio.h>
+#define PI 3.14159
 
 int main()
 {
-    /* printf(<expressão de saída/string de controle>[, parâmetros adicionais]);
-        <expressão de saída>: contém o texto a ser impresso no terminal e também a indicação de onde parâmetros adicionais serão exibidos e em qual 'formato' (ex: %d, %f, %c, etc).
-        Parâmetros adicionais: são os valores que serão substituídos nos locais indicados na expressão de saída.
-        Exemplo: printf("O valor de x é %d", x);
-    */
-    printf("Programa para cálculo da área da cabana\n");
-    printf("%i\n", 10 * 10);                       // Área da sala de estar (10m x 10m)
-    printf("%i\n", 5 * 7);                         // Área do banheiro (5m x 7m)
-    printf("%i\n", 5 * 7);                         // Área do quarto (5m x 7m)
-    printf("%i\n", (10 * 10) + (5 * 7) + (5 * 7)); // Área total da cabana
+    float lateral = 10; // comprimento da lateral da cabana
+    float cquarto = 7;  // comprimento da lateral maior do quarto
+    float raio = 3;     // raio da piscina
+    float areaq;        // área do quarto
+    float areas;        // área da sala de estar
+    float areatotal;    // área total da cabana
+    double areap;       // área da piscina
 
+    printf("Programa para calcular a área de uma cabana\n");
+    areas = lateral * lateral;
+    printf("Área da sala de estar: %f m²\n", areas);
+    areaq = (lateral / 2) * cquarto;
+    printf("Área do quarto: %f m²\n", areaq);
+    printf("Área do banheiro: %f m²\n", areaq);
+    areatotal = areas + areaq * 2;
+    printf("Área total da cabana: %f m²\n", areatotal);
+    areap = PI * raio * raio;
+    printf("Área da piscina: %f m²\n", areap);
     return 0;
 }
